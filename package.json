@@ -1,0 +1,31 @@
+{
+  "name": "nestjs-autostatus",
+  "version": "0.1.0",
+  "description": "conditional status code interceptor for nestjs",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "git@github.com:kbwo/nestjs-autostatus",
+  "author": "kbwo <kabaaa1126@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm -Rf ./dist && tsc -b tsconfig.build.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.1.6",
+    "rxjs": "^7.5.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.1",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
